@@ -6,9 +6,11 @@
 
 2. ```
    $ git log
+      $ git log --oneline
    ```
 
 Gives version history of commit for the branch
+- `--oneline` gives simple oneline history for logs with first 7 charecter of commit hash and commit message
 
 3. ```
    $ git diff
